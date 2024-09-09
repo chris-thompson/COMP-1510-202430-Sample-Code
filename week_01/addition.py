@@ -6,10 +6,10 @@ We add integers and floating point numbers using the +
 
 # This is also a comment. It is an in-line comment.
 # Assign a value to the salary variable.
-salary = 6000.00
+salary = 300_000.00
 
 # Assign a value to the bonus variable.
-bonus = 15_000
+bonus = 25_000
 
 # Calculate the total pay by adding salary
 # and bonus. Assign the result to a new variable called pay.
