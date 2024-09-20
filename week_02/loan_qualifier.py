@@ -8,8 +8,8 @@ the logic down into short, distinct, easy to
 understand steps.
 """
 
-MINIMUM_SALARY = 30000.0  # The minimum annual salary
-MINIMUM_NUMBER_OF_YEARS = 2         # The minimum years on the job
+MINIMUM_SALARY = 30000.0     # The minimum annual salary
+MINIMUM_NUMBER_OF_YEARS = 2  # The minimum years on the job
 
 # Get the customer's annual salary.
 salary = float(input('Enter your annual salary: '))
