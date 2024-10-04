@@ -10,3 +10,4 @@ def square(number):
     >>> square(3)
     9
     """
+    return number * number

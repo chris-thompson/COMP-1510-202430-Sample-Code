@@ -5,16 +5,26 @@ from week_04.square import square
 
 class Test(TestCase):
     def test_positive_integer(self):
-        self.assertEqual(4, square(2))
+        expected = 4
+        actual = square(2)
+        self.assertEqual(expected, actual)
 
     def test_negative_integer(self):
-        self.assertEqual(4, square(-2))
+        expected = 4
+        actual = square(-2)
+        self.assertEqual(expected, actual)
 
     def test_zero(self):
-        self.assertEqual(0, square(0))
+        expected = 0
+        actual = square(0)
+        self.assertEqual(expected, actual)
 
     def test_positive_float(self):
-        self.assertEqual(2.25, square(1.5))
+        expected = 2.25
+        actual = square(1.5)
+        self.assertEqual(expected, actual)
 
     def test_negative_float(self):
-        self.assertEqual(2.25, square(-1.5))
+        expected = 2.25
+        actual = square(-1.5)
+        self.assertEqual(expected, actual)
